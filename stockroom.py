@@ -3,3 +3,5 @@ class Devices:
         self.__type=type
         self.__manufacturer=manufacturer
         self.__model=model
+    def getType(self):
+        return self.__type
