@@ -16,6 +16,35 @@ class Device:
     def setModel(self,model):
         self.__model=model
 
+<<<<<<< HEAD
+class Stockroom:
+    def __init__(self,stockroomID,stockroomName,address,province,city):
+        self.__stockroomID=stockroomID
+        self.__stockroomName=stockroomName
+        self.__address=address
+        self.__province=province
+        self.__city=city
+    def getStocktoomID(self):
+        return self.__stockroomID
+    def getStockroomName(self):
+        return self.__stockroomName
+    def getAddress(self):
+        return self.__address
+    def getProvince(self):
+        return self.__province
+    def getCity(self):
+        return self.__city
+    def setStockroomID(self,ID):
+        self.__stockroomID=ID
+    def setStockroomName(self,stockroomName):
+        self.__stockroomName=stockroomName
+    def setAddress(self,address):
+        self.__address=address
+    def setProvince(self,province):
+        self.__province=province
+    def setCity(self,city):
+        self.__city=city
+=======
 telefono1=Device("telefono","Samsung","S22")
 print (telefono1.getType())
 print (telefono1.getManufacturer())
@@ -27,3 +56,4 @@ print (telefono1.getManufacturer())
 telefono1.setModel("X21LL")
 print (telefono1.getModel())
 print(telefono1)
+>>>>>>> develop
