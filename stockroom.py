@@ -17,7 +17,29 @@ class Device:
         self.__model=model
 
 class Stockroom:
-    def __init__(self,stockroomID,stockroomName):
+    def __init__(self,stockroomID,stockroomName,address,province,city):
         self.__stockroomID=stockroomID
         self.__stockroomName=stockroomName
-    
+        self.__address=address
+        self.__province=province
+        self.__city=city
+    def getStocktoomID(self):
+        return self.__stockroomID
+    def getStockroomName(self):
+        return self.__stockroomName
+    def getAddress(self):
+        return self.__address
+    def getProvince(self):
+        return self.__province
+    def getCity(self):
+        return self.__city
+    def setStockroomID(self,ID):
+        self.__stockroomID=ID
+    def setStockroomName(self,stockroomName):
+        self.__stockroomName=stockroomName
+    def setAddress(self,address):
+        self.__address=address
+    def setProvince(self,province):
+        self.__province=province
+    def setCity(self,city):
+        self.__city=city
