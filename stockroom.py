@@ -15,15 +15,54 @@ class Device:
         self.__manufacturer=manufacturer
     def setModel(self,model):
         self.__model=model
+class Stockroom:
+    def __init__(self,stockroomID,stockroomName,address,province,city):
+        self.__stockroomID=stockroomID
+        self.__stockroomName=stockroomName
+        self.__address=address
+        self.__province=province
+        self.__city=city
+    def getStocktoomID(self):
+        return self.__stockroomID
+    def getStockroomName(self):
+        return self.__stockroomName
+    def getAddress(self):
+        return self.__address
+    def getProvince(self):
+        return self.__province
+    def getCity(self):
+        return self.__city
+    def setStockroomID(self,ID):
+        self.__stockroomID=ID
+    def setStockroomName(self,stockroomName):
+        self.__stockroomName=stockroomName
+    def setAddress(self,address):
+        self.__address=address
+    def setProvince(self,province):
+        self.__province=province
+    def setCity(self,city):
+        self.__city=city
 
-telefono1=Device("telefono","Samsung","S22")
-print (telefono1.getType())
-print (telefono1.getManufacturer())
-print (telefono1.getModel())
-telefono1.setType("Audifonos")
-print (telefono1.getType())
-telefono1.setManufacturer("Apple")
-print (telefono1.getManufacturer())
-telefono1.setModel("X21LL")
-print (telefono1.getModel())
-print(telefono1)
+
+class empleado:
+    def __init__(self,DNI,name,lastName,storeID):
+        self.__DNI=DNI
+        self.__name=name
+        self.__lastName=lastName
+        self.__storeID=storeID
+    def getDNI(self):
+        return self.__DNI
+    def getName(self):
+        return self.__name
+    def getLastName(self):
+        return self.__lastName
+    def getStoreID(self):
+        return self.__storeID
+    def setDNI(self,DNI):
+        self.__DNI=DNI
+    def setDNI(self,DNI):
+        self.__DNI=DNI
+    def setDNI(self,DNI):
+        self.__DNI=DNI
+    def setDNI(self,DNI):
+        self.__DNI=DNI
