@@ -1,7 +1,7 @@
 from person import Person
 class Employee(Person):
     def __init__(self,dni,name,last_name,telefono,hire_date):
-        Person.__init__(self,dni,name,last_name,telefono)
+        super().__init__(dni,name,last_name,telefono)
         self.__hire_date=hire_date
     
     def get_hire_date(self):
