@@ -1,6 +1,9 @@
 from owner import Owner
 
 class Headquater:
+    """
+high level support for doing this and that.
+"""
     def __init__(self, name, cuit,building,owner):
         self.__name=name
         self.__cuit=cuit
