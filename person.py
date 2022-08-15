@@ -29,6 +29,3 @@ class Person:
 
     def setter_telefono(self,telefono):
         self.__telefono=telefono
-        
-persona1=Person(95771007,"nayi","rojas",115842)
-persona1.get_dni()
