@@ -1,0 +1,23 @@
+Cellphone accessory retailer, "All Fashion" or AF, with 10 stores in Argentina is in dire need of help.
+
+Last year even though sales have not dropped, the business has been losing money and is about to go under.
+
+AF's main selling product is phone cases. The cases come from multiple brands and each have may many models. 
+
+AF also sells tripods, phone chargers, cables among other types of accessories.
+
+Piero, the owner, buys the products from a whole seller abroad and distributes them to his stores.
+
+Each store has multiple employees but only one store manager who is in charge of sales and stock management for their store.
+
+Managers relay daily to Piero how much they have sold per day as well as if they are running low on stock so he can buy more.
+
+Since sales have not dropped, Piero has been trying to understand why his business is failing. 
+
+He has identified that numbers started to drop when he started expanding and his family stopped helping as store managers. 
+
+Looking at the sell records, he has also noticed that depending on the area, stores have radically different product model surplus.
+
+A model that is popular and runs out quickly in the San Isidro store, may not even sell a unit in the Avellaneda store.
+
+Piero has hired you to figure out what the issue is, then design and implement a simple backend software solution that helps his business stay afloat.
