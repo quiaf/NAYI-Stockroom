@@ -7,8 +7,5 @@ class Employee(Person):
     def get_hire_date(self):
         return self.__hire_date
 
-    def setter_hire_date(self,hire_date):
+    def set_hire_date(self,hire_date):
         self.__hire_date=hire_date
-
-employee1=Employee(95412,"jose","nando",1155,"25-Jul-2022")
-print(employee1.get_dni())

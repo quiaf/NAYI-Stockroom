@@ -1,10 +1,14 @@
 class Product:
-    def __init__(self,product_type,model,manufacturer,price):
+    def __init__(self,serial,product_type,model,manufacturer,price):
+        self.__serial=serial
         self.__model=model
         self.__product_type=product_type
         self.__manufacturer=manufacturer
         self.__price=price
-    
+
+    def get_serial (self):
+        return self.__serial
+
     def get_model (self):
         return self.__model
 
@@ -16,16 +20,19 @@ class Product:
 
     def get_price(self):
         return self.__price
-    
-    def setter_model (self,model):
+
+    def set_serial (self,serial):
+        self.__serial=serial
+
+    def set_model (self,model):
         self.__model=model
 
-    def setter_product_type(self,product_type):
+    def set_product_type(self,product_type):
         self.__product_type=product_type
     
     
-    def setter_manufacturer(self,manufacturer):
+    def set_manufacturer(self,manufacturer):
         self.__manufacturer=manufacturer
 
-    def setter_price(self,price):
+    def set_price(self,price):
         self.__price=price
