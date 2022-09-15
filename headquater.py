@@ -1,9 +1,4 @@
-from owner import Owner
-
 class Headquater:
-    """
-high level support for doing this and that.
-"""
     def __init__(self, name, cuit,building,owner):
         self.__name=name
         self.__cuit=cuit
@@ -22,18 +17,14 @@ high level support for doing this and that.
     def get_owner(self):
         return self.__owner
     
-    def setter_name(self,name):
+    def set_name(self,name):
         self.__name=name
         
-    def setter_cuit(self,cuit):
+    def set_cuit(self,cuit):
         self.__cuit=cuit
     
-    def setter_building(self,building):
+    def set_building(self,building):
         self.__building=building
 
-    def setter_owner(self,owner):
+    def set_owner(self,owner):
         self.__owner=owner
-
-owner1=Owner(233,"nayi","rojas",2355)
-casaMatriz=Headquater("Avellaneda",233,"chs",owner1)
-print(casaMatriz.get_owner().get_name())

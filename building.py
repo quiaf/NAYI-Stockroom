@@ -17,14 +17,14 @@ class Building:
     def get_neighborhood(self):
         return self.__neighborhood
 
-    def setter_name(self,name):
+    def set_name(self,name):
         self.__name=name
     
-    def setter_address(self,address):
+    def set_address(self,address):
         self.__address=address
     
-    def setter_postal_code(self,postal_code):
+    def set_postal_code(self,postal_code):
         self.__postal_code=postal_code
     
-    def setter_neighborhood(self,neighborhood):
+    def set_neighborhood(self,neighborhood):
         self.__neighborhood=neighborhood
