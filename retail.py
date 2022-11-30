@@ -14,8 +14,8 @@ class Retail(Headquater):
         return self.__employee
     
     
-    def setter_stockroom(self,stockroom):
+    def set_stockroom(self,stockroom):
         self.__stockroom= stockroom
     
-    def setter_employee(self,employee):
+    def set_employee(self,employee):
         self.__employee=employee
